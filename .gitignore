@@ -1,0 +1,31 @@
+# Terraform State & Sensitive Files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+
+# AWS Credentials & SSH Keys
+*.pem
+*.key
+*.pub
+aws_credentials
+config
+secrets.json
+
+# Environment Variables
+.env
+.env.*
+
+# Python Virtual Env & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# IDE / OS specific
+.vscode/
+.idea/
+.DS_Store
